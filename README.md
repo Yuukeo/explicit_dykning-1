@@ -6,6 +6,6 @@ Väldigt lätt att byta positioner etc
 
 starta i cfgn 
 
-lägg in ett item som heter dyk ifall du vill kunna använda den funktionen
+Kör sqlen ifall du vill ha funtionen med dykarmask
 
 klart
