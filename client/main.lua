@@ -21,7 +21,7 @@ Citizen.CreateThread(function()
 
     for k, v in pairs(Config.Locations) do
       if(Config.Type ~= -1 and GetDistanceBetweenCoords(coords, v.x, v.y, v.z, true) < Config.DrawDistance) then
-        DrawMarker(6, v.x, v.y, v.z-0.95, 0, 0, 0.1, 0, 0, 0, 1.2, 1.2, 1.2, 0, 205, 100, 200, 0, 0, 0, 0)
+        DrawMarker(Config.Type, v.x, v.y, v.z-0.95, 0, 0, 0.1, 0, 0, 0, 1.2, 1.2, 1.2, 0, 205, 100, 200, 0, 0, 0, 0)
         Draw3DText(v.x, v.y, v.z+0.17, 'Tryck ~g~E~w~ för att öppna ~b~Menyn')
 				if IsControlPressed(0, 38) then
           OpenMenu()
